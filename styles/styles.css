@@ -261,7 +261,7 @@ section {
 .projects {
   display: grid;
   gap: 4vh;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 30% 30% 30%;
 }
 
 .project {
@@ -271,6 +271,7 @@ section {
   justify-content: center;  /* Centra verticalmente */
   text-align: center;       /* Alinea el texto si ocupa más de una línea */
   
+
   background-color: #060b16ce;
   border-radius: 8px;
   height: 70vh;
@@ -284,6 +285,28 @@ section {
 .project:hover{
   transform: scale(1.1);
 }
+
+.project_preview {
+  position: relative;
+  overflow: hidden;
+}
+
+.project_preview iframe {
+  width: 1280px;
+  height: 720px;
+  border: none;
+  border-radius: 5%;
+
+  /* Escalado */
+  transform: scale(0.21);
+  transform-origin: top;
+
+  /* Centrado */
+  top: 0;
+
+  pointer-events: none;
+}
+
 
 .project_desc{
   display: flex;

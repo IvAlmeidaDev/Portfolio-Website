@@ -19,6 +19,7 @@
   <script type="text/javascript" src="./js/menu.js"></script>
 </head>
 <body>
+  <!--ELEMENTOS DEL FONDO ANIMADO-->
   <div class="background">
    <span></span>
    <span></span>
@@ -34,6 +35,7 @@
    <span></span>
 </div>
 
+<!-- Barra de navegación -->
 <nav>
     <div class="nav_links_container">
     <a href="#about" class="nav_links">Sobre Mi</a>
@@ -205,9 +207,18 @@ Me especializo en crear interfaces limpias, responsivas y centradas en el usuari
 <section id="proyectos">
   <h2>Proyectos Destacados</h2>
   <div class="projects">
+    
     <div class="project">
       <h3>Landing Page</h3>
-      <img src="./assetts/landing_page.png"  class="project_imagen"/>
+      
+      <div class="project_preview">
+      <iframe 
+        src="https://fenekkozero.github.io/LandingPage/"
+        
+        tabindex="-1"
+      ></iframe>
+      </div>
+
       <div class="project_desc">
         <div>
           <p>Ejemplo de página de inicio creada usando HTML y CSS</p>
@@ -221,10 +232,19 @@ Me especializo en crear interfaces limpias, responsivas y centradas en el usuari
 
         <div class="project">
       <h3>React User Page</h3>
-      <img src="./assetts/landing_page.png"  class="project_imagen"/>
-      <div class="project_desc">
+      
+        <div class="project_preview">
+          <iframe 
+          src="https://ialmeida-userpagereact.vercel.app/"
+          
+          tabindex="-1"
+          ></iframe>
+        </div>
+      
+      
+        <div class="project_desc">
         <div>
-          <p>Aplicación web para la creación y manejo de usuarios desde una API externa. Creado con Vite+React.</p>
+          <p>Aplicación web para la creación y manejo de usuarios. Creado con Vite+React.</p>
         </div> 
         <div>  
           <p><a href="https://ialmeida-userpagereact.vercel.app/" target="_blank">Ver Demo</a></p>
@@ -232,6 +252,31 @@ Me especializo en crear interfaces limpias, responsivas y centradas en el usuari
         </div>
       </div>   
     </div>
+
+        <div class="project">
+      
+          <h3>Arkanoid Remake</h3>
+      
+          <div class="project_preview">
+          <iframe 
+            src="https://arkanoidjavascriptremake.vercel.app/"
+          
+            tabindex="-1"
+          ></iframe>
+          </div>
+
+      <div class="project_desc">
+        <div>
+          <p>Recreación del juego clásico de Arcade usando Javascript</p>
+        </div> 
+        <div>  
+          <p><a href="https://arkanoidjavascriptremake.vercel.app/" target="_blank">Ver Demo</a></p>
+          <p><a href="https://github.com/FenekkoZero/Arkanoid-Javascript" target="_blank">Ver repositorio</a></p>
+        </div>
+      </div>   
+    </div>
+
+
   </div>
 </section>
 
@@ -253,5 +298,4 @@ Me especializo en crear interfaces limpias, responsivas y centradas en el usuari
 </footer>
 
 
-</body>
 </html>
