@@ -262,6 +262,7 @@ section {
   display: grid;
   gap: 4vh;
   grid-template-columns: 30% 30% 30%;
+  padding: 4vh;
 }
 
 .project {
