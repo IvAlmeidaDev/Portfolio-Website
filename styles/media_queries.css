@@ -54,7 +54,7 @@
         padding-top: 0;
     }
 .texto_header_mobile{
-    font-size: 2.7vh;
+    font-size: 2.5vh;
 }
     .mobile_nombre h1 {
   font-family: times;
@@ -116,6 +116,11 @@
 }
 
 @media (max-width: 720px){
+    
+    .header_mobile h1 {
+        font-size: 1.3rem;
+    }
+    
     .project_preview {
         width: 60%;
         height: 60%;
