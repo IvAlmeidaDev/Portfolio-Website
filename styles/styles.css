@@ -275,7 +275,7 @@ section {
 
   background-color: #060b16ce;
   border-radius: 8px;
-  height: 70vh;
+  height: 85vh;
   color: #f4f4f4;
   font-size: 3vh;
   padding: 5vh;
@@ -283,9 +283,9 @@ section {
   transition: transform 0.2s;
 }
 
-.project:hover{
+/*.project:hover{
   transform: scale(1.1);
-}
+}*/
 
 .project_preview {
   position: relative;
