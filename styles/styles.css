@@ -283,11 +283,10 @@ section {
   transition: transform 0.2s;
 }
 
-/*
-Unused. Will adjust later.
+
   .project:hover{
   transform: scale(1.1);
-}*/
+}
 
 .project_preview {
   width: 100%;
@@ -321,6 +320,12 @@ Unused. Will adjust later.
 
   flex-grow: 1; /* Permite que esta sección ocupe el espacio restante */
   gap: 1rem;
+}
+
+.project_desc p {
+  max-width: 35ch;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
 .project a {
