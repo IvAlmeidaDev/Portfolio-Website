@@ -114,3 +114,20 @@
     }
 
 }
+
+@media (max-width: 720px){
+    .project_preview {
+        width: 60%;
+        height: 60%;
+        aspect-ratio: 9 / 16; /* Mantiene la proporción 16:9 */
+    }
+
+    .desktop_screenshot {
+        display: none; /* Oculta la imagen de escritorio en pantallas pequeñas */
+    }
+    
+    .mobile_screenshot {
+        height: 100%;
+        width: 100%;
+    }
+}
