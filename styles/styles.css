@@ -398,7 +398,7 @@ button:hover {
 }
 
 footer {
-  display: none;
+  display: hidden;
   text-align: center;
   padding: 2rem 1rem;
   background-color: #e5e7eb;
