@@ -246,6 +246,14 @@ section {
   padding: 1rem;
 }
 
+.about_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 2rem;
+}
+
 .about_details {
   font-family: veka;
   font-size: 1.2rem;
@@ -430,22 +438,18 @@ footer {
   width: 18vh;
 }
 
-.cvButton{
-  text-align: center;
-  padding-top: 4vh;
-}
 .cvButton button{
   font-family: veka;
-  font-size: 2.6vh;
-  width: 30vh;
-  height: 7vh;
+  font-size: 2.5vh;
+
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+
   background-color: #0f0e5e;
   
 }
 
 .cvButton button:hover{
-  width: 30vh;
-  height: 7vh;
   background-color: #05043a;
 }
 
