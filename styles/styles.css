@@ -10,6 +10,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .nav_list {
@@ -269,8 +270,8 @@ section {
 .projects {
   display: grid;
   gap: 4vh;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); /* Ajusta el número de columnas según el espacio disponible */
-  padding: 4vh;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); /* Ajusta el número de columnas según el espacio disponible */
+  padding: 1vh;
 }
 
 .project {
@@ -286,18 +287,18 @@ section {
   min-height: 480px;
   color: #f4f4f4;
   font-size: 3vh;
-  padding: 5vh;
+  padding: 1vh;
   border-radius: 9px;
   transition: transform 0.2s;
 }
 
 
   .project:hover{
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 
 .project_preview {
-  width: 100%;
+  width: 75%;
   aspect-ratio: 16 / 9; /* Mantiene la proporción 16:9 */ 
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
