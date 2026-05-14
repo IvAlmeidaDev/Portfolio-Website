@@ -13,6 +13,7 @@
   scroll-behavior: smooth;
 }
 
+
 .nav_list {
   position: absolute;
   top: 100%;
@@ -36,7 +37,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 8vh;
+  height: 12vh;
   width: 100%;
   padding: 1rem;
   position: sticky;
@@ -59,16 +60,17 @@ nav {
 .nav_links {
   color: #f9fafb;
   text-decoration: none;
-  font-weight: 6;
+  font-size: 1.4rem;
   transition: transform 0.2s;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 
 
 .nav_links:hover {
   text-decoration: underline;
-  transform: scale(1.2);
+  transform: scale(1.08);
+  text-decoration: none;
 }
 
 /* FORMATO GLOBAL DEL BODY */
@@ -104,6 +106,7 @@ header{
   z-index: 19;
   height: 27vh;
   font-family: veka;
+  scroll-margin-top: 80px;
 }
 
 .header_pc h1 {
@@ -156,7 +159,6 @@ header{
 .header_flexbox {
     display: flex;
 }
-
 
 
 .header_flexchild:first-child {
@@ -247,6 +249,11 @@ section {
   padding: 1rem;
 }
 
+
+.about_section {
+  scroll-margin-top: 80px;
+}
+
 .about_header {
   display: flex;
   align-items: center;
@@ -267,6 +274,10 @@ section {
   color: #ffffff;
 }
 
+
+.projects_section {
+  scroll-margin-top: 80px;
+}
 .projects {
   display: grid;
   gap: 4vh;
