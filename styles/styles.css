@@ -233,10 +233,10 @@ h2 {
   font-size: 5vh;
   font-family: times;
   text-shadow: 
-            -2px -2px 0 #000,  /* Top-left shadow */
-            2px -2px 0 #000,   /* Top-right shadow */
-            -2px 2px 0 #000,   /* Bottom-left shadow */
-            2px 2px 0 #000;    /* Bottom-right shadow */
+            -1px -1px 0 #000,  /* Top-left shadow */
+            1px -1px 0 #000,   /* Top-right shadow */
+            -1px 1px 0 #000,   /* Bottom-left shadow */
+            1px 1px 0 #000;    /* Bottom-right shadow */
         /* For a thicker outline, add more shadows with varying offsets */
 }
 
@@ -390,6 +390,9 @@ section {
   margin-bottom: 1vh;
 }
 
+.contact{
+  display: none;
+}
 
 .contact form {
   display: flex;
@@ -421,9 +424,11 @@ button:hover {
 footer {
   display: hidden;
   text-align: center;
-  padding: 2rem 1rem;
-  background-color: #e5e7eb;
+  padding: 2rem 0.5rem;
+  color: #fff;
+  background-color: #060b16ce;
   font-size: 0.9rem;
+  height: 15vh;
 }
 
 @media (max-width: 600px) {
