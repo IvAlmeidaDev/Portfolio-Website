@@ -120,19 +120,26 @@
     .header_mobile h1 {
         font-size: 1.3rem;
     }
+
+    h2{
+        font-size: 1.3rem;
+    }
     
-    .project_preview {
-        width: 60%;
-        height: 60%;
-        aspect-ratio: 9 / 16; /* Mantiene la proporción 16:9 */
+    .projects {
+        padding: 1.6vh;
+    }
+}
+
+@media (max-width: 400px){
+    .projects {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Ajusta el número de columnas según el espacio disponible */
+    }
+    
+    .project{
+        min-height: 400px;
     }
 
-    .desktop_screenshot {
-        display: none; /* Oculta la imagen de escritorio en pantallas pequeñas */
-    }
-    
-    .mobile_screenshot {
-        height: 100%;
-        width: 100%;
-    }
+    .project:hover{
+        transform: scale(1.0);
+}
 }
