@@ -1,8 +1,8 @@
 @font-face{font-family: Times;
-    src: url(../fonts/times.ttf);
+    src: url(../fonts/JetBrainsMono-Regular.ttf);
 }
 @font-face{font-family: Veka;
-    src: url(../fonts/Iosevka-Bold.ttc);
+    src: url(../fonts/Satoshi-Variable.ttf);
 }
 
 
@@ -96,7 +96,7 @@ body {
   display: none;
 }
 header{
-  background-color: #060b16ce;
+  background-color: #040514d8;
 }
 /* FORMATO DEL HEADER */
 .header_pc {
@@ -111,7 +111,7 @@ header{
 
 .header_pc h1 {
   font-family: times;
-  font-size: 2rem;
+  font-size: 1.55rem;
   margin-bottom: 0.5rem;
 }
 
@@ -233,7 +233,7 @@ header{
 /* FORMATO DEL CUERPO DE LA PÁGINA */
 h2 {
   color: #ffffff;
-  font-size: 5vh;
+  font-size: 1.5rem;
   font-family: times;
   text-shadow: 
             -1px -1px 0 #000,  /* Top-left shadow */
@@ -245,8 +245,9 @@ h2 {
 
 section {
   max-width: 1000px;
-  margin: 2rem auto;
+  margin: 1rem auto;
   padding: 1rem;
+  margin-bottom: 2rem;
 }
 
 
@@ -258,14 +259,12 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  margin-bottom: 2rem;
 }
 
 .about_details {
   font-family: veka;
   font-size: 1.2rem;
-  background-color: #060b16ce;
+  background-color:#040514d8;
   padding: 3.5vh;
   border-radius: 8px;
 }
@@ -293,7 +292,7 @@ section {
   text-align: center;       /* Alinea el texto si ocupa más de una línea */
   
 
-  background-color: #060b16ce;
+  background-color: #040514d8;
   border-radius: 9px;
   min-height: 480px;
   color: #f4f4f4;
@@ -380,7 +379,7 @@ section {
   justify-content: center;  /* Centra verticalmente */
   text-align: center;       /* Alinea el texto si ocupa más de una línea */
 
-  background-color: #060b16ce;
+  background-color: #040514d8;
   color: #f4f4f4;
   font-size: 3vh;
   padding: 3vh;
