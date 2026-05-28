@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mi Portafolio</title>
+  <title>My Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
     <!--<link rel="stylesheet" href="./styles/tailwind.css"> -->
@@ -38,17 +38,17 @@
 <!-- Barra de navegación -->
 <nav>
     <div class="nav_links_container">
-    <a href="#about" class="nav_links">Sobre Mi</a>
-    <a href="#proyectos" class="nav_links">Proyectos</a>
-    <a href="#habilidades" class="nav_links">Habilidades</a>
-    <a href="#contactoDesktop" class="nav_links">Contacto</a>
+    <a href="#about" class="nav_links">About Me</a>
+    <a href="#proyectos" class="nav_links">Projects</a>
+    <a href="#habilidades" class="nav_links">Skills</a>
+    <a href="#contactoDesktop" class="nav_links">Contact</a>
     </div>
-  
+    
     <div class="nav_right">
   
       <div class="nav_actions">
-    <a href="index-en.html" class="lang_button">
-      EN
+    <a href="index.html" class="lang_button">
+      ES
     </a>
       </div>
 
@@ -65,7 +65,7 @@
     </ul>
       </div>
 
-  </div>
+    </div>
 </nav>
 
 <!-- Header de escritorio -->
@@ -102,8 +102,8 @@
                     <img src="./assetts/mail.svg" alt="Correo" class="imagen_correo"/>
                     ivan.almeida28@yahoo.com
                   </p>
-                  <button class="copiar_btn" onclick="copiarCorreo()">Copiar</button>
-                  <div id="mensajeCopiado" class="toast">Copiado ✅</div>
+                  <button class="copiar_btn" onclick="copiarCorreo()">Copy</button>
+                  <div id="mensajeCopiado" class="toast">Copied ✅</div>
                 </div>
             </div>
         </div>
@@ -141,8 +141,8 @@
                     <img src="./assetts/mail.svg" alt="Correo" class="imagen_correo"/>
                     ivan.almeida28@yahoo.com
                   </p>
-                  <button class="copiar_btn" onclick="copiarCorreo()">Copiar</button>
-                  <div id="mensajeCopiado" class="toast">Copiado ✅</div>
+                  <button class="copiar_btn" onclick="copiarCorreo()">Copy</button>
+                  <div id="mensajeCopiado" class="toast">Copied ✅</div>
                 </div>
             </div>
             </div> 
@@ -153,32 +153,34 @@
 <section id="about" class="about_section hidden">
 
     <div class="about_header">
-        <h2>Acerca de mí</h2>
+        <h2>About Me</h2>
 
         <div class="cvButton">
-            <button onclick="abrirModal()">Ver CV</button>
+            <button onclick="abrirModal()">View CV</button>
         </div>
     </div>
 
     <div class="about_details">
         <p class="about_text">
-            Desarrollador front-end especializado en el desarrollo de interfaces de usuario adaptativas con React, JavaScript y CSS moderno.<br>
-            Mi objetivo es crear experiencias web limpias y fáciles de usar.
+            Frontend developer specialized in building responsive user interfaces using React, JavaScript, and modern CSS.<br>
+            My goal is to create clean and user-friendly web experiences.
         </p>
     </div>
 </section>
+
 
     <!-- Ventana Modal -->
     <div id="cvModal" class="modal">
         <div class="modal-contenido">
             <span class="cerrar" onclick="cerrarModal()">&times;</span>
 
-            <iframe src="./assetts/CV Frontend ES.pdf" width="100%" height="500px"></iframe>
+            <iframe src="./assetts/CV Frontend EN.pdf" width="100%" height="500px"></iframe>
         </div>
     </div>
 
+
 <section id="proyectos" class="projects_section hidden">
-  <h2>Proyectos Destacados</h2>
+  <h2>Featured Projects</h2>
   <div class="projects">
     
     <div class="project">
@@ -200,7 +202,7 @@
 
       <div class="project_desc">
         <div>
-          <p>Landing page responsive centrada en una interfaz de usuario moderna y un diseño limpio.</p>
+          <p>Responsive landing page focused on a modern user interface and clean design.</p>
         </div> 
         <div>  
           <p>HTML5 • CSS</p> 
@@ -230,7 +232,7 @@
       
         <div class="project_desc">
         <div>
-          <p>Aplicación React centrada en la gestión de usuarios, con una arquitectura basada en componentes.</p>
+          <p>React application focused on user management with a component-based architecture.</p>
         </div> 
         <div>
           <p>React • Javascript • PostGreSQL</p>   
@@ -261,7 +263,7 @@
 
       <div class="project_desc">
         <div>
-          <p>Remake de un clásico juego arcade, incluye la lógica del juego e interfaz de usuario interactivos.</p>
+          <p>Remake of a classic arcade game featuring interactive gameplay logic and UI.</p>
         </div> 
         <div>
           <p>React • Javascript • CSS</p>  
@@ -277,7 +279,7 @@
 
 
 <section id="habilidades" class="hidden">
-  <h2>Habilidades Técnicas</h2>
+  <h2>Technical Skills</h2>
   <div class="skills">
     <div class="skill">
         <img src="./assetts/HTML5.svg"  class="imagen_skill"/>

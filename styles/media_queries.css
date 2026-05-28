@@ -13,16 +13,28 @@
         z-index: 1000;
     }
 
+    .nav_right {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-left: auto;
+}
+
     .nav_links_container{
         display: none;
     }
     
-.burg_menu_container {
+    .nav_actions {
+    position: static;
+    margin-right: 0;
+    } 
+
+    .burg_menu_container{
     display: flex;
     align-items: center;
     position: relative; /* importante para posicionar el .nav_list relativo a esto */
-    margin-left: auto;
-}
+    } 
+
 .nav_list{
     right: 0;
     left: auto;

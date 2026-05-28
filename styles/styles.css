@@ -47,6 +47,12 @@ nav {
   box-shadow: 5px 5px 10px 2px rgba(7, 4, 14, 0.8);
 }
 
+  .nav_right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .nav_links_container{
   flex: 1;
     display: flex;
@@ -65,13 +71,43 @@ nav {
   gap: 4rem;
 }
 
-
-
 .nav_links:hover {
   text-decoration: underline;
   transform: scale(1.08);
   text-decoration: none;
 }
+
+/* BOTÓN DE IDIOMA */
+
+.nav_actions {
+  display: flex;
+  align-items: center;
+}
+
+.lang_button {
+  text-decoration: none;
+  color: white;
+
+  border: 1px solid rgba(255,255,255,0.2);
+
+  padding: 0.45rem 0.9rem;
+  border-radius: 8px;
+
+  font-size: 1rem;
+  font-family: veka;
+
+  transition:
+    background-color 0.25s ease,
+    transform 0.2s ease,
+    border-color 0.25s ease;
+}
+
+.lang_button:hover {
+  background-color: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.4);
+  transform: translateY(-2px);
+}
+
 
 /* FORMATO GLOBAL DEL BODY */
 body {
@@ -444,8 +480,10 @@ footer {
 
 @media (max-width: 600px) {
   nav {
-    flex-direction: column;
-    gap: 1rem;
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
