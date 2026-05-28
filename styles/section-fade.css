@@ -1,0 +1,22 @@
+/*CONFIGURACIÓN PARA LAS ANIMACIONES DE SECCIONES*/
+
+section {
+  opacity: 1;
+  transform: translateX(0);
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+}
+
+/* Estado inicial oculto */
+
+section.hidden {
+  opacity: 0;
+  transform: translateX(-80px);
+}
+
+/* Estado visible */
+section.show {
+  opacity: 1;
+  transform: translateX(0);
+}

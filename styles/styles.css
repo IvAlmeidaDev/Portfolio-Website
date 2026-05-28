@@ -151,7 +151,7 @@ header{
 }
 
 .header_links:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   color: #ffffff;
   text-decoration: underline;
 }
@@ -368,7 +368,7 @@ section {
 .skills {
   display: grid;
   gap: 4vh;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   padding: 4vh;
 }
 

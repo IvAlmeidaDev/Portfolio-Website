@@ -13,11 +13,17 @@
 
   <link rel="stylesheet" href="./styles/media_queries.css">
 
+  <link rel="stylesheet" href="./styles/section-fade.css">
+
+
   <!-- Aquí se llaman a los scripts en JS -->
   <script type="text/javascript" src="./js/show_cv.js"></script>
   <script type="text/javascript" src="./js/copy_mail.js"></script>
   <script type="text/javascript" src="./js/menu.js"></script>
+  <script defer type="text/javascript" src="./js/section-fade.js"></script> 
+
 </head>
+
 <body>
   <!--ELEMENTOS DEL FONDO ANIMADO-->
   <div class="tech-background">
@@ -133,7 +139,7 @@
     </header>
 
 
-<section id="about" class="about_section">
+<section id="about" class="about_section hidden">
 
     <div class="about_header">
         <h2>Acerca de mí</h2>
@@ -161,7 +167,7 @@
 
 </section>
 
-<section id="proyectos" class="projects_section">
+<section id="proyectos" class="projects_section hidden">
   <h2>Proyectos Destacados</h2>
   <div class="projects">
     
@@ -260,7 +266,7 @@
 </section>
 
 
-<section id="habilidades">
+<section id="habilidades" class="hidden">
   <h2>Habilidades Técnicas</h2>
   <div class="skills">
     <div class="skill">
