@@ -140,14 +140,19 @@
 
 @media (max-width: 400px){
     .projects {
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Ajusta el número de columnas según el espacio disponible */
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); /* Ajusta el número de columnas según el espacio disponible */
+        padding: 1rem;
     }
     
     .project{
-        min-height: 400px;
+        min-height: 380px;
     }
 
     .project:hover{
         transform: scale(1.0);
 }
+    .project_desc{
+        font-size: 0.9rem;
+    }
+
 }
